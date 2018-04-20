@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Landing Page - Greeting" content="Where it all begins...!">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Landing_page.css') }}">
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <H1>Hello World!</H1>
+            <br>
+            <h3>Welcome to the Landing Page practice!</h3>
+            <br>
+            <img src="{{ url_for('static', filename='Ninja.png') }}">
+            <a href=/Ninjas>Ninja Information</a> 
+            <a href=/dojos>Click here to register</a>
+        </div>
+    </body>
+</html>
